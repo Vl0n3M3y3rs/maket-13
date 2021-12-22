@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* font size  */
+    --h1: 42px;
+    --h1-sm:35px;
+    --h2: 32px;
+    --h2-sm: 25px;
+    --p: 18px;
+    --p-sm: 15px;
+    --h-size: 60px;
+    --sc-t: 50px;
+    /* font colot  */
+    --black: #222222;
+    --orange:#ff7738;
+    --main-color: rgb(86,34,34);
+    --btn-color: rgb(66,33,48);
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+
+.container {
+    padding: 0 15px;
+}
+  
+@media screen and (min-width: 576px) {
+    .container {
+      max-width: 540px;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+  
+@media screen and (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
+  
+@media screen and (min-width: 1400px) {
+    .container {
+      max-width: 1200px;
+    }
+}
